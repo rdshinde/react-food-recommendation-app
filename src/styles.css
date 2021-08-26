@@ -1,0 +1,12 @@
+.App {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  background-image: linear-gradient(#eba83a, #bb371a);
+}
+
+li {
+}
