@@ -27,7 +27,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1> Maharashtrian Food </h1>
+      <h1> Maharashtrian Food 🥘 </h1>
       <p>
         Here are some of my favourite Maharashtrian Dishes. Check which one
         likes you the most.
@@ -45,10 +45,9 @@ export default function App() {
         <ul>
           {maharashtrianFood[selectedfoodType].map((food) => (
             <li key={food.dishName}>
-              <span>
-                {" "}
-                <h3> {food.dishName} </h3> {food.rating}{" "}
-              </span>
+              <div>
+                <h3> {food.dishName} </h3> {food.rating}
+              </div>
             </li>
           ))}
         </ul>
