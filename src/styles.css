@@ -1,5 +1,6 @@
 .App {
   color: white;
+  font-size: 1.2rem;
   font-family: sans-serif;
   text-align: center;
   padding: 1rem;
@@ -8,5 +9,24 @@
   background-image: linear-gradient(#eba83a, #bb371a);
 }
 
+h1 {
+  color: #bb371a;
+}
+
 li {
+  list-style: none;
+  border: 2px solid white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+button {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #bb371a;
+  margin: 0.5rem;
+  background: #fff8d9;
+  border: none;
+  border-radius: 0.5rem;
 }

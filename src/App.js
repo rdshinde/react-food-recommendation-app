@@ -1,6 +1,5 @@
-import React from "react";
 import "./styles.css";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const maharashtrianFood = {
   spicy: [
@@ -30,9 +29,8 @@ export default function App() {
     <div className="App">
       <h1> Maharashtrian Food </h1>
       <p>
-        {" "}
         Here are some of my favourite Maharashtrian Dishes. Check which one
-        likes you the most.{" "}
+        likes you the most.
       </p>
 
       <div>
@@ -47,8 +45,10 @@ export default function App() {
         <ul>
           {maharashtrianFood[selectedfoodType].map((food) => (
             <li key={food.dishName}>
-              <div> {food.dishName} </div>
-              <div> {food.rating} </div>
+              <span>
+                {" "}
+                <h3> {food.dishName} </h3> {food.rating}{" "}
+              </span>
             </li>
           ))}
         </ul>
