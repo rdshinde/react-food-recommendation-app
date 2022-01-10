@@ -65,7 +65,7 @@ const maharashtrianFood = {
 
 export default function App() {
   const [selectedfoodType, setfoodType] = useState("sweet");
-  function foodTypeClickHandler(foodType) {
+  const foodTypeClickHandler = foodType => {
     setfoodType(foodType);
   }
   return (
